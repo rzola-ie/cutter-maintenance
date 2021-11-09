@@ -77,3 +77,9 @@ p {
     padding-top: 30vmin;
   }
 }
+
+@media screen and (max-height: 400px) {
+  body {
+    background-size: 0;
+  }
+}
