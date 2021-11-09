@@ -4,9 +4,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "vercel --prod"
   },
   "devDependencies": {
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "vercel": "^23.1.2"
   }
 }
