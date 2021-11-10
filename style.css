@@ -74,6 +74,7 @@ p {
 
   #app {
     width: 60%;
+    padding-left: 5rem;
     padding-top: 30vmin;
   }
 }
