@@ -11,7 +11,7 @@ body {
   min-height: -moz-available;
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
+  background-color: #fafafa;
   background-image: url('/img/bg.svg');
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -51,31 +51,55 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  padding: 5rem 2rem 1rem 2rem;
-}
-
-h1, h2, p {
-  margin-bottom: 1.5rem;
+  padding: 8rem 2rem 1rem;
 }
 
 h1 {
-  font-weight: 100;
+  font-size: 1.2rem;
+  margin-bottom: 1.375rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 p {
-  font-size: 1.6rem;
+  margin: 0;
+}
+
+p:last-of-type {
+  margin-top: 1.5rem;
+}
+
+br {
+  display: none;
 }
 
 /* desktop */
-@media screen and (min-width: 567px) {
+@media screen and (min-width: 768px) {
   body {
     background-size: 50vmax;
   }
 
   #app {
     width: 65%;
-    padding-left: 5rem;
+    padding-left: 6rem;
     padding-top: 30vmin;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+    text-align: left;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  p:last-of-type {
+    margin-top: 2rem;
+  }
+
+  br {
+    display: initial;
   }
 }
 
